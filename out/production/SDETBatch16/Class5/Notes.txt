@@ -1,0 +1,18 @@
+if-else:
+    we have a condition based on that condition we perform some tasks.
+Why should we learn about if-else conditions:
+    With the help of if else conditions we can write programs which can take decisions
+    based on conditions.
+Syntax:
+    if(condition){
+    // code that we want to execute once the conditions is true
+    }
+
+we can use any data type to write this condition part with the help of
+relational operators(== != > < >= <=). Once the condition is true java executes all of the
+code that we write inside the {}.
+Logical operators:
+    Logical operators help us combine multiple conditions. There are 3 main
+    types of logical operators AND(&&) OR (||) NOT !
+Why we should use logical operators:
+    they help us simplify the logic.
