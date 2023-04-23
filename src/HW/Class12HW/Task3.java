@@ -20,17 +20,17 @@ public class Task3 {
 
          */
         String gender = "girl";
-        String papi = "Daniel";
-        String mami = "Mary";
+        String dad = "Daniel";
+        String mom = "Mary";
 
         if (gender.equals("boy")) {
-            System.out.println("Mom's first name? " + mami);
-            System.out.println("Dad's first name? " + papi);
-            System.out.print("Suggested baby name: " + papi.substring(0, 3) + mami.substring(mami.length() - 2));
+            System.out.println("Mom's first name? " + mom);
+            System.out.println("Dad's first name? " + dad);
+            System.out.print("Suggested baby name: " + dad.substring(0, 3) + mom.substring(mom.length() - 2));
         } else {
-            System.out.println("Mom's first name? " + mami);
-            System.out.println("Dad's first name? " + papi);
-            System.out.print("Suggested baby name: " + mami.substring(0, 2) + papi.substring(papi.length() - 3));
+            System.out.println("Mom's first name? " + mom);
+            System.out.println("Dad's first name? " + dad);
+            System.out.print("Suggested baby name: " + mom.substring(0, 2) + dad.substring(dad.length() - 3));
         }
     }
 }
