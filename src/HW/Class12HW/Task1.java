@@ -10,12 +10,15 @@ public class Task1 {
         For Example String str=hello =>l
 
          */
-        String str = "Hello World";
-        if (str.isEmpty()) {
-        } else if (str.length() % 2 == 1 && str.length() >= 3) {
-            System.out.println(str.substring(5, 7));
+            //String str=new String("Java");
+            String str="Nadia";
+
+            if(!str.isBlank()&& str.length()%2!=0&& str.length()>=3){
+                int middleIndex=str.length()/2;
+                char middleChar=str.charAt(middleIndex);
+                System.out.println(middleChar);
+            }
 
         }
-    }
-}
 
+    }
