@@ -1,0 +1,15 @@
+Methods:
+    in Java, a method is a block of code or a collection of statements that
+    perform a specific task. It is designed to perform a particular function or
+    piece of logic within a program. We can create a method and then call it
+    multiple times from different parts of the program rather than repeating the
+    same block of code in multiple places Methods in
+    java have return types(output of a method) for example void,String int char etc.
+    they can also take parameters(input). parameters can of primitive
+    and non-primitive. The body of the method can contain any logic like arrays
+    loops switch.
+why we should use methods?
+        1) Code re-usability
+        2) Organize the code
+        3) changing code becomes easier.
+how to create method in java?

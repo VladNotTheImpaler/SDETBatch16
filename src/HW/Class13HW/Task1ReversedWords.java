@@ -13,7 +13,7 @@ public class Task1ReversedWords {
         for (int i = 0; i < sArr.length; i++) {
             String s3 = sArr[i];
             StringBuilder s4 = new StringBuilder(s3);
-            System.out.print(s4.reverse()+ " ");
+            System.out.print(s4.reverse() + " ");
 
         }
 
