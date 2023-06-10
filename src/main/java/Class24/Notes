@@ -1,0 +1,7 @@
+methods from the arrayList class
+do not use Iterators use removeif();
+
+ArrayList:
+    if in your code 80% of the times you use get method 20% add(index,element), remove.
+LinkedList
+    if 70-80% you use remove method or adding the data in-between you should use linkedlist

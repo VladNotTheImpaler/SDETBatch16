@@ -1,0 +1,11 @@
+Interfaces:
+    Interfaces are like contracts. Which guides us to create methods in a class.
+    we implement interfaces. They contain public static final variables and by default
+    methods are abstract.
+Why we should use interfaces:
+    we should use interfaces so that everyone knows which methods needs to be built.
+Syntax:
+    interface Interface1{
+
+
+    }

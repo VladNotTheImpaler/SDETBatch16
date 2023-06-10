@@ -1,0 +1,12 @@
+Three Main Types of maps:
+    1)HashMap 2)LinkedHashMap 3) TreeMap.
+HashMap:
+    Best overall performance, but it does not maintain the insertion order.
+LinkedHashMap:
+    It maintains the insertion order. A little slow then the HashMap.
+TreeMap:
+    It sorts the data based on keys. it's slower than HashMap and LinkedHashMap.
+    ===========================================================================
+
+FileHandling:
+    Reading/Writing data in files.

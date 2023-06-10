@@ -1,0 +1,22 @@
+Framework:
+    A framework is a pre-written code that allows developers to build applications
+    more easily and quickly.
+Sets:
+    Do not allow duplicate data.
+    They don't have get methods.
+    Can't use normal  for/while/do while loops only Enhnaced one can be used
+Hashset(Most Widely used):
+    DownSide
+        No order is maintained insertion order.
+    Upside:
+        Its best when it comes to memory and speed.
+LinkedHashSet
+    Upside:
+        Maintains the insertion order.
+    Downside:
+        its slower than Hashset.
+TreeSet:
+    Upside:
+        It sorts the data.
+    Downside:
+        it is the slowest of all

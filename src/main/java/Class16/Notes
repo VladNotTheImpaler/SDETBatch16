@@ -1,0 +1,34 @@
+static keyword:
+    static is a keyword that can be used with variables, methods,classes etc.
+    when we use this keyword with a variable that variable becomes static variables.
+    when we use it with methods those methods become static methods.
+static variables:
+    static variables can be accessed in all type of methods(instance,static). They
+    can also be accessed in multiple objects of a class.
+static methods:
+    static methods  will have same behaviour across all the instances of a class because
+    no instance fields are allowed inside the static methods.
+Note:
+    1) We can call the methods by just writing their name if we are in the same class.
+    however if we are in a different class we need to write class before the method name
+    if we want to call it.
+Access Modifiers:
+     Controls the access of entities like variables methods. There are 4 access levels
+     in java. 1) private  2)default 3)protected 4)public. There are 3 keywords in java
+     that can be used to apply these access levels.
+private:
+    It we write private keyword with any variable method constructor etc no one else
+    outside of that class can access it.
+default:
+    All the entities with default access can be accessed within the same class as well as in any
+    other class within the same package
+protected:
+    Accessed within the class and its subclasses
+public:
+    if something is public all the classes in a project
+    can access it.
+How do we decide the access level
+==========================================================
+1)fields/properties/instance variables are almost always created as private.
+2) methods 70 to 80% of the time are declared as public.
+3) 98% to 99% classes are declared as public.
